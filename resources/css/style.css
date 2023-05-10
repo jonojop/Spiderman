@@ -75,23 +75,26 @@ h2{
     background-color: #832323;
 }
 
+.boton-ghost {
+    color: #000000;
+}
+
 .boton-ghost:link,
 .boron-ghost:visited {
-    text-decoration: none;
-    text-transform: uppercase;
     border-radius: 40px;
     border:2px solid #fff;
     display: flex;
     justify-content: left;
     margin-left: 2%;
     position: absolute;
-	width: 144px;
+	width: 135px;
 	padding: 10px;
 }
 
 .boton-ghost:hover,
 .boton-ghost:active {
     background-color: #aa6565;
+    text-decoration: none;
 }
 
 .container-button {
