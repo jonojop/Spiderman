@@ -1,0 +1,225 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    color: black;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+    font-family: fantasy;    
+}
+
+.row { 
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,.5), rgb(0,0,0,.8)), url(img/fondox2.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-box{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1{
+    font-size: 500%;
+    color: #fff;
+    font-weight: 100; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2{
+    font-size: 180%;
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/**BOTONES**/
+
+.boton:link,
+.btn:visited {
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.boton-full,
+.boton-full:visited {
+    background-color: #a12a2a;
+    color: #000000;
+}
+
+.boton-full:hover {
+    background-color: #832323;
+}
+
+.boton-full:active {
+    background-color: #832323;
+}
+
+.boton-ghost:link,
+.boron-ghost:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 40px;
+    border:2px solid #fff;
+    display: flex;
+    justify-content: left;
+    margin-left: 2%;
+    position: absolute;
+	width: 144px;
+	padding: 10px;
+}
+
+.boton-ghost:hover,
+.boton-ghost:active {
+    background-color: #aa6565;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+}
+
+.barras {
+    list-style: none;
+    float: right;
+    margin-top: 50px;
+} 
+
+.barras li {
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
+    color: #ffff
+}
+
+.barras li a:link,
+.barras li a:visited {
+    text-decoration:none;
+    color: inherit;
+}
+
+.barras li a:hover,
+.barras li a:active{
+    border-bottom: 2px solid #ffffff;
+}
+
+.logo {
+    height: 130px;
+    width: auto;
+    float: left;
+}
+
+.spider-img {
+    width: 450px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 1%;
+    border-radius: 15px;
+}
+
+.about-heading {
+    color: #000000;
+    font-size: 240%;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    margin-top: 15%;
+    margin-left: 2%;    
+}
+
+.about-para {
+    color: #646363;
+    margin-bottom: 30px;
+    margin-left: 5%;
+}
+
+.spacing-bottom{
+    margin-bottom: 50px;
+}
+
+.seccion{
+    padding-bottom: 30px;
+}
+
+/*** SECCION DE SPIDERMANS ***/
+
+.seccion-spiders { 
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.color {
+    color:#000000;
+}
+
+.titulos{
+    font-size: 250%;
+    color: #000000;
+    margin-bottom: 3px
+}
+
+.titulos:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #832323;
+    content: " ";
+    margin: 30px auto 0 auto;
+}
+
+.cada-uno {
+    margin-top: 10px;
+    list-style: none;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cada-uno li {
+    width: 33%;
+    overflow: hidden;
+}
+
+.cada-img {
+
+}
+
+.cada-img img {
+    width: 50%;
+    height: 300px;
+    border-radius: 7px;
+}
+
+.andrew {
+    object-fit: contain;
+}
+
+.cada-img img:hover {
+    opacity: 0.8;
+}
+
+/* work para */
+
+.nombre-spider {
+
+}
