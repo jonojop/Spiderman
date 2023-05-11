@@ -147,6 +147,7 @@ h2{
     margin-bottom: 50px;
     margin-top: 15%;
     margin-left: 2%;    
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 .about-para {
@@ -169,6 +170,7 @@ h2{
     text-align: center;
     margin-top: 50px;
     padding-bottom: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 .color {
@@ -203,10 +205,6 @@ h2{
     overflow: hidden;
 }
 
-.cada-img {
-
-}
-
 .cada-img img {
     width: 50%;
     height: 300px;
@@ -221,8 +219,49 @@ h2{
     opacity: 0.9;
 }
 
-/* work para */
+/*** SERVICIOS ***/
 
-.nombre-spider {
+.services-section {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    margin-left: 30px;
+}
 
+.servicio {
+    color: #000000;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.icon {
+    font-size: 250%;
+    display: block;
+    margin-bottom: 30px;
+    color: #a12a2a;
+}
+
+.service-heading {
+    font-size: 150%;
+    margin-bottom: 10px;    
+    font-weight: 300;
+}
+
+.service-para {
+    font-size: 100%;
+    margin-bottom: 20px;
+}
+
+.service-link {
+    text-transform: uppercase;
+    text-decoration:none;
+    color: #832323;
+    border: 2px solid #832323;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+
+.service-link:hover {
+    color: #000000;
+    background-color: #863c3c;
 }
